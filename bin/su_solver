@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# -*- mode: ruby -*-
+
+$LOAD_PATH.unshift './lib'
+
+require 'su_solver'
+
+SuSolver.solve ARGV[0].dup
